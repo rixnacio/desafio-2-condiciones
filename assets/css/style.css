@@ -1,0 +1,80 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 24px;
+  line-height: 1.4;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+small {
+  color: #666;
+}
+
+section {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+}
+
+.fila {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img.demo {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.con-borde {
+  border-color: red !important;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 6px;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+.salida {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.selects {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.nota {
+  color: #444;
+  font-size: 0.95rem;
+}

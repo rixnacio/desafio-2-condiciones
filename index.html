@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Desafío 2 Condiciones</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <h1>Desafío 2 Condiciones</h1>
+
+  <!-- Ejercicio 1 -->
+  <section id="ej1">
+    <h2>Click en la imagen para ver el borde rojo</h2>
+    <p class="nota">Haz click sobre la imagen para agregar o quitar el borde rojo.</p>
+    <div class="fila">
+      <img id="foto" class="demo" src="./assets/img/stickers bob esponja.jpg" alt="Ejemplo">
+    </div>
+  </section>
+
+  <!-- Ejercicio 2 -->
+  <section id="ej2">
+    <h2>Stickers (máximo 10)</h2>
+    <p class="nota">Ingresa cuántos stickers quieres de cada tipo y presiona verificar.</p>
+
+    <div class="fila">
+      <div class="card">
+        <img class="demo" src="./assets/img/stickers intentando ser fit.jpg" alt="Sticker 1">
+        <label>Cantidad</label>
+        <input id="stk1" type="number" min="0" step="1" value="0">
+      </div>
+
+      <div class="card">
+        <img class="demo" src="./assets/img/stickers musculo en progreso.jpg" alt="Sticker 2">
+        <label>Cantidad</label>
+        <input id="stk2" type="number" min="0" step="1" value="0">
+      </div>
+
+      <div class="card">
+        <img class="demo" src="./assets/img/pizza haciendo ejercicio.jpg" alt="Sticker 3">
+        <label>Cantidad</label>
+        <input id="stk3" type="number" min="0" step="1" value="0">
+      </div>
+    </div>
+
+    <div class="fila" style="margin-top:10px;">
+      <button id="btn-stickers">VERIFICAR</button>
+      <p id="salida-stickers" class="salida"></p>
+    </div>
+  </section>
+
+  <!-- Ejercicio 3 -->
+  <section id="ej3">
+    <h2>Validación de contraseña con 3 numerales (password)</h2>
+    <p class="nota">Elige los dígitos y presiona Ingresar. 
+        (Contraseñas válidas: 911 y 714).</p>
+
+    <div class="selects">
+      <label>Dígitos:</label>
+      <select id="d1"></select>
+      <select id="d2"></select>
+      <select id="d3"></select>
+      <button id="btn-pass">Ingresar</button>
+    </div>
+    <p id="salida-pass" class="salida"></p>
+  </section>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
